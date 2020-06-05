@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.main {
+.container {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -15,7 +15,7 @@
  h1 {
      text-align: center;
  }   
- .main .container {
+ .container .svgContainer {
       height: 560px;
       width: 900px;
       background-color: #fff;
@@ -25,10 +25,10 @@
       align-self: center;
       position: relative;
  }     
-.main .container #title {
+.container .svgContainer #title {
         text-align: center;
         font-size: 2.5em; }
-.main .container .visHolder {
+.container .svgContainer .visHolder {
         position: absolute;
         top: 6em;
 }
@@ -64,12 +64,12 @@
     stroke-width: 1;
     fill: none; }
   
-.info {
+.moreInformation {
     font-size: 0.8em; }
   
   
 @media (min-width: 1000px) {
-    .main .container {
+    .container .svgContainer {
             box-shadow: 2px 2px 20px;
     }
 }
